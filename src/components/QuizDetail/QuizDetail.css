@@ -1,0 +1,18 @@
+.quiz {
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 10px;
+  margin-bottom: 25px;
+  padding: 15px;
+  box-shadow: 3px 5px 7px black;
+  background-color: cornflowerblue;
+  color: #fff;
+  height: 30vh;
+}
+
+.quiz_suggestion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+  line-height: 30px;
+}

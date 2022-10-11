@@ -1,0 +1,14 @@
+.quiz_option {
+  font-weight: 600;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.quiz_option li {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  background-color: cornflowerblue;
+  border-radius: 4px;
+  box-shadow: 2px 4px 6px black;
+}
