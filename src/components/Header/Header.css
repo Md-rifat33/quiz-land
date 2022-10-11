@@ -1,0 +1,12 @@
+.header_title {
+  font-style: italic;
+  color: dodgerblue;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 19px;
+  margin-right: 40px;
+  font-weight: 600;
+  font-style: italic;
+}
