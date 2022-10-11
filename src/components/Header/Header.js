@@ -7,7 +7,7 @@ const Header = () => {
     <nav className="d-flex justify-content-between flex-sm-column text-sm-center flex-column text-center flex-md-row navbar">
       <h2 className="header_title">Quizz Land</h2>
       <div className="links">
-        <Link to="/courses">Courses</Link>
+        <Link to="/home">Home</Link>
         <Link to="/topics">Topics</Link>
         <Link to="/statistics">Statistics</Link>
         <Link to="/blogs">Blogs</Link>
