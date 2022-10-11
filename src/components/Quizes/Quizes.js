@@ -6,26 +6,24 @@ const Quizes = ({ quizes, handleStartToClick }) => {
   const { logo, name } = quizes
   return (
     <div className="">
-      <div className="row">
-        <div class="card" style={{ width: '20rem' }}>
-          <img src={logo} class="card-img-top  card_image" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">{name}</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <button
-              onClick={() => handleStartToClick(quizes.id)}
-              className="btn btn-primary w-100 fw-bold d-flex align-items-center justify-content-evenly"
-            >
-              Start Quiz
-              <FontAwesomeIcon
-                className="ms-3"
-                icon={faArrowRight}
-              ></FontAwesomeIcon>
-            </button>
-          </div>
+      <div class="card col-lg-3  mt-3" style={{ width: '20rem' }}>
+        <img src={logo} class="card-img-top  card_image" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{name}</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <button
+            onClick={() => handleStartToClick(quizes.id)}
+            className="btn btn-primary w-100 fw-bold d-flex align-items-center justify-content-evenly"
+          >
+            Start Quiz
+            <FontAwesomeIcon
+              className="ms-3"
+              icon={faArrowRight}
+            ></FontAwesomeIcon>
+          </button>
         </div>
       </div>
     </div>
