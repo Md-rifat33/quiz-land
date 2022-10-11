@@ -6,7 +6,10 @@ const Quizes = ({ quizes, handleStartToClick }) => {
   const { logo, name } = quizes
   return (
     <div className="">
-      <div class="card col-lg-3  mt-3" style={{ width: '20rem' }}>
+      <div
+        class="card col-lg-4 col-md-6 col-sm-12 mt-3"
+        style={{ width: '20rem' }}
+      >
         <img src={logo} class="card-img-top  card_image" alt="..." />
         <div class="card-body">
           <h5 class="card-title">{name}</h5>

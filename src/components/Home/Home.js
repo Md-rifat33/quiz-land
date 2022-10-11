@@ -25,7 +25,7 @@ const Home = () => {
           <img src={CoverPic} alt="" className="img-fluid" />
         </div>
       </div>
-      <div className="mb-5 container-fluid cart_container">
+      <div className="mb-5 container row cart_container">
         {data.map((quizes) => (
           <Quizes
             key={quizes.id}
