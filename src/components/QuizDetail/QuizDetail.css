@@ -1,16 +1,26 @@
 .quiz {
   border: 1px solid gray;
   border-radius: 8px;
-  margin: 10px;
+  margin-top: 10px;
   margin-bottom: 25px;
+  margin-left: 20px;
   padding: 15px;
   box-shadow: 3px 5px 7px black;
   background-color: cornflowerblue;
   color: #fff;
-  height: 30vh;
+  min-height: 25vh;
 }
 
 .quiz_suggestion {
   margin-top: 50px;
   line-height: 30px;
+}
+
+.eye_icon {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.eye_icon:hover {
+  color: black;
 }
