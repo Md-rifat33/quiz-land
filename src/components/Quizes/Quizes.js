@@ -7,13 +7,13 @@ const Quizes = ({ quizes, handleStartToClick }) => {
   return (
     <div className="">
       <div
-        class="card col-lg-4 col-md-6 col-sm-12 mt-3"
+        className="card col-lg-4 col-md-6 col-sm-12 mt-3"
         style={{ width: '20rem' }}
       >
-        <img src={logo} class="card-img-top  card_image" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">{name}</h5>
-          <p class="card-text">
+        <img src={logo} className="card-img-top  card_image" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">{name}</h5>
+          <p className="card-text">
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
