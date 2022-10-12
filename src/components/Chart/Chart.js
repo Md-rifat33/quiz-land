@@ -13,9 +13,8 @@ import {
 const Chart = () => {
   const charts = useLoaderData([])
   const { data } = charts
-  console.log(data)
   return (
-    <div className="text-center mt-5 d-flex justify-content-center">
+    <div className="text-center mt-5 d-flex justify-content-center align-items-center">
       <ResponsiveContainer width={'100%'} height={500}>
         <LineChart
           data={data}

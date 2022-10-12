@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
 import Chart from './components/Chart/Chart'
+import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
 import Quiz from './components/Quiz/Quiz'
 import Main from './layouts/Main'
@@ -48,6 +49,7 @@ function App() {
   return (
     <div className="main_container">
       <RouterProvider router={router}></RouterProvider>
+      <Footer></Footer>
     </div>
   )
 }

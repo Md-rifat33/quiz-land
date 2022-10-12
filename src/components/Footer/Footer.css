@@ -1,0 +1,9 @@
+.footer_container {
+  position: relative;
+  margin-top: 150px;
+}
+
+.footer_text {
+  position: absolute;
+  bottom: 8;
+}
