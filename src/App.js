@@ -39,11 +39,13 @@ function App() {
           path: '/blogs',
           element: <Blogs></Blogs>,
         },
+        {
+          path: '*',
+          element: (
+            <div className="fs-2 fw-bold text-center">404. NOT FOUND</div>
+          ),
+        },
       ],
-    },
-    {
-      path: '*',
-      element: <div className="fs-2 fw-bold text-center">404. NOT FOUND</div>,
     },
   ])
   return (
